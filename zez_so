@@ -93,5 +93,4 @@ export NULINK_OPERATOR_ETH_PASSWORD=xxxxxxxxxx
 docker run -it --rm \
 -p 9151:9151 \
 -v /root/nulink:/code \
--v /root/nulink:/home/circleci/.local/share/nulink \
--e NULINK_KEYSTORE_PASSWORD \
+-v /root/nulink:/home/circleci/.local/share
